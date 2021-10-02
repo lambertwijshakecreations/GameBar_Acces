@@ -1,0 +1,43 @@
+html {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+body {
+  background-color: sandybrown;
+}
+
+body header {
+  font-size: 0.9em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 10px brown;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main form {
+  display: inline;
+}
+
+body main form input {
+  width: 20%;
+  text-align: center;
+  padding: 2px;
+  border-radius: 0.5em;
+}
+
+body main form button {
+  width: 50%;
+  border-radius: 0.5em;
+}
+/*# sourceMappingURL=style.css.map */
